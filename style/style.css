@@ -1,0 +1,117 @@
+/* font import section */
+.open-sans-normal{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/* shred style */
+.text-primary{
+    color: #FD6E0A;
+}
+.dark-2{
+    color: #474747;
+}
+/* nav style */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 30px 0px 150px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul li{
+    list-style: none;
+    margin: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+}
+nav ul{
+   display: flex;
+   align-items: center;
+}
+.header{
+    background-image: url("../images/developer.png"),url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    background-color: #FFF8F3;
+}
+.hire-me-btn{
+    color: #ffffff;
+    background-color: #FD6E0A;
+    border: none;
+    font-size: 20px;
+    padding: 18px 32px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+/* Banner style */
+.banner-greeting{
+    margin: 0px;
+    font-size: 45px;
+    font-weight: 400;
+    color: #474747;
+}
+.banner-title{
+    margin: 0px;
+    font-weight: 800;
+    font-size: 70px;
+}
+.banner-shot-description{
+    margin: 0px 0px 20px 0px;
+    font-size: 18px;
+    color: #474747;
+}
+.banner-profile-pic{
+    width: 500px;
+}
+.banner-content{
+    max-width: 580px;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 30px 0px 150px;
+}
+/* about section style */
+.about-section{
+    background-color: #FFF8F3;
+    margin: 130px 150px;
+    border-radius: 10px;
+    padding: 60px;
+    height: 220px;
+}
+.about-title{
+    text-align: center;
+    font-size: 45px;
+    color: #181818;
+    margin-bottom: 15px;
+}
+.about-description{
+    text-align: center;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 15px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.about-item-title{
+    color: #757575;
+}
+.about-item-des{
+    color: #474747;
+}
