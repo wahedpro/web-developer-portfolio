@@ -3,8 +3,7 @@
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  font-variation-settings:"wdth" 100;
 }
 *{
     margin: 0;
@@ -26,7 +25,7 @@ nav{
 }
 .nav-title{
     font-weight: 800;
-    font-size: 45px;
+    font-size: 30px;
 }
 nav ul li{
     list-style: none;
@@ -34,6 +33,7 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
+    font-size: 13px;
 }
 nav ul{
    display: flex;
@@ -49,8 +49,8 @@ nav ul{
     color: #ffffff;
     background-color: #FD6E0A;
     border: none;
-    font-size: 20px;
-    padding: 18px 32px;
+    font-size: 13px;
+    padding: 13px 28px;
     border-radius: 5px;
     font-weight: 700;
 }
@@ -58,18 +58,18 @@ nav ul{
 /* Banner style */
 .banner-greeting{
     margin: 0px;
-    font-size: 45px;
+    font-size: 30px;
     font-weight: 400;
     color: #474747;
 }
 .banner-title{
     margin: 0px;
     font-weight: 800;
-    font-size: 70px;
+    font-size: 40px;
 }
 .banner-shot-description{
     margin: 0px 0px 20px 0px;
-    font-size: 18px;
+    font-size: 12px;
     color: #474747;
 }
 .banner-profile-pic{
@@ -143,8 +143,53 @@ nav ul{
 .ed-ex-container{
     margin: 80px 150px;
     display: flex;
+    gap: 24px;
 }
 .ed-ex-title{
     font-size: 30px;
     color: #474747;
+}
+.edex-title{
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.edex-subtitle{
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 10px;
+}
+.edex-disc{
+    font-size: 16px;
+    color: #757575;
+    margin-bottom: 10px;
+}
+.ed-ex-content{
+    padding: 20px 0px;
+}
+.resume{
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+/* button style*/
+.btn-pro{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.footer{
+    background-color: #FFF8F3;
+    display: flex;
+    gap: 30px;
+    padding: 30px 30px 30px 150px;
+}
+input, input[type="textarea"]{
+    height: 35px;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 15px;
 }
