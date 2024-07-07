@@ -87,9 +87,9 @@ nav ul{
 /* about section style */
 .about-section{
     background-color: #FFF8F3;
-    margin: 130px 150px;
+    margin: 80px 150px;
     border-radius: 10px;
-    padding: 60px;
+    padding: 30px 25px 70px 25px;
     height: 220px;
 }
 .about-title{
@@ -102,16 +102,49 @@ nav ul{
     text-align: center;
     font-size: 18px;
     color: #757575;
-    margin-bottom: 15px;
+    margin-bottom: 40px;
 }
 .about-items{
     display: flex;
     justify-content: space-around;
     text-align: center;
+    
 }
 .about-item-title{
     color: #757575;
 }
 .about-item-des{
+    color: #474747;
+    margin-bottom: 15px;
+}
+/* What i do section style */
+.what-it-do{
+    margin: 80px 150px;
+    border-radius: 10px;
+}
+.skills-container{
+    display: flex;
+    gap: 20px;
+}
+.skills{
+    padding: 20px;
+    border-radius: 5px;
+    height: 250px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skills-title{
+    margin-bottom: 15px;
+}
+.skills-img{
+    margin-bottom: 15px;
+}
+
+/* this is education and experiences style */
+.ed-ex-container{
+    margin: 80px 150px;
+    display: flex;
+}
+.ed-ex-title{
+    font-size: 30px;
     color: #474747;
 }
